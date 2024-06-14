@@ -2,20 +2,18 @@ import React from "react";
 
 function First() {
   return (
-    <div className="flex justify-start items-center w-[1500px] h-[601px] bg-black mx-auto border">
-      <div className="flex flex-col text-white gap-32 ml-24">
-        <div className="flex flex-col gap-6">
-          <h1 className="font-bold text-lg leading-9">CATEGORY</h1>
-          <p className="font-bold text-lg leading-[54px]">
-            Introduction line heading or value proposition goes here in 4 lines.
-          </p>
+    <>
+      <div>
+        <div className="relative bg-[#850F6B] text-white items-center justify-end p-4 flex flex-col max-w-full h-[500px]  sm:h-[600px]  ">
+          <div className="flex space-x-2 sm:space-x-4 md:space-x-6 lg:space-x-6">
+            <span className="bg-white rounded-full p-1.5 sm:p-2 md:p-2.5 lg:p-3" />
+            <span className="bg-white rounded-full p-1.5 sm:p-2 md:p-2.5 lg:p-3 opacity-50" />
+            <span className="bg-white rounded-full p-1.5 sm:p-2 md:p-2.5 lg:p-3 opacity-50" />
+            <span className="bg-white rounded-full p-1.5 sm:p-2 md:p-2.5 lg:p-3 opacity-50" />
+          </div>
         </div>
-
-        <button className="w-[228px] h-[56px] p-3 bg-[#FFDD2C] text-black font-bold text-lg leading-9">
-          KNOW MORE
-        </button>
       </div>
-    </div>
+    </>
   );
 }
 
